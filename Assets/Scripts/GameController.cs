@@ -11,6 +11,8 @@ public class GameController : MonoBehaviour
         {
             tier.MakeNoise(); // Katze -> "Miau!", Hund -> "Wuff!"
             tier.Jump();
+            Debug.Log("Spieler heiﬂt: " + PlayerData.Instance.PlayerName);
+
         }
     }
 
